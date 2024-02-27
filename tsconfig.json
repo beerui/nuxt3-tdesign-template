@@ -1,0 +1,8 @@
+{
+  // https://nuxt.com/docs/guide/concepts/typescript
+  "extends": "./.nuxt/tsconfig.json",
+  "include": ["node_modules/tdesign-vue-next/global.d.ts"],
+  "compilerOptions": {
+    "strict": false
+  }
+}
